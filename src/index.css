@@ -1,1 +1,16 @@
 @import "tailwindcss";
+@theme {
+  --spacing: 16px;
+}
+
+/* 초기 세팅 */
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #4c5268, #40424d);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
